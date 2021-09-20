@@ -6,7 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Storage</title>
 
-    <style></style>
+    <style>
+        h2 {
+            margin-top: 20px;
+        }
+
+        #input {
+            margin-top: 20px;
+        }
+
+
+    </style>
 
 </head>
 <body>
@@ -14,6 +24,10 @@
     <h1 id="nome"></h1>
     
     <input type="text" oninput="atualizar(this)"> <!--O uso do this nesse caso, é para pegar esse elemento input na função atualizar-->
+
+    <h2></h2>
+
+    <input id="input" type="text" oninput="load(this)">
 
     <script src="script.js"></script>
 </body>
